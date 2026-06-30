@@ -60,6 +60,8 @@ jobs:
               "templates/docs/dependency-policy.md",
               "templates/docs/coding-standards.md",
               "templates/docs/agent-workflows.md",
+              "templates/docs/review-checklist.md",
+              "templates/docs/task-template.md",
               "prompts/preflight.md",
               "prompts/implementation.md",
               "prompts/refactor.md",

@@ -30,6 +30,8 @@ When adding this skill to an existing project, do not assume the templates descr
    - `docs/dependency-policy.md`: approved dependencies and prohibited duplicates.
    - `docs/coding-standards.md`: project-specific coding rules.
    - `docs/agent-workflows.md`: task, review, refactor, and dependency workflows.
+   - `docs/review-checklist.md`: human review and agent self-check checklist.
+   - `docs/task-template.md`: reusable task prompt template for governed agent work.
 4. Replace template examples with real project paths. If a fact is unknown, mark it as `TBD` or `needs confirmation`; never present a guessed path as authoritative.
 5. If governance files already exist, merge conservatively. Preserve project-specific rules and remove only clear duplication.
 6. Recommend quality scripts, but do not modify `package.json` or lockfiles unless the user approves the dependency/tooling change.
@@ -144,6 +146,6 @@ For completed work, use this summary shape:
 
 ## Supporting Resources
 
-- `templates/`: starter project governance files for AGENTS, Claude Code, Codex, and docs.
+- `templates/`: starter project governance files for AGENTS, Claude Code, Codex, docs, review checklists, and task prompts.
 - `prompts/`: reusable prompts for preflight, implementation, refactor, and review workflows.
 - `snippets/`: optional quality-check config examples.
